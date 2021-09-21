@@ -13,13 +13,7 @@ References*](https://arxiv.org/abs/2003.10685), which is used to convert videos 
 
 There are some improvements in pre-processing. You can refer to the flow chart below (the model of `Process_with_Sketch_Keras` can be downloaded [here](https://drive.google.com/file/d/1Zo88NmWoAitO7DnyBrRhKXPcHyMAZS97/view)) :
 
-```mermaid
-graph TB
-Movies--Extract_Flames-->Flames
-Flames--Process_with_XDogs-->XDogs_Pictures
-XDogs_Pictures--Get_Signed_Distance_Fields_Map-->Signed_Distance_Fields_Map("Signed_Distance_Fields_Map(Used Later)")
-Flames--Process_with_Sketch_Keras--> Sketch_Keras_Pictures("Sketch_Keras_Pictures(Used Later)")
-```
+![DLAVC-v1.1.png](https://i.loli.net/2021/09/21/jNMfzydSq6c7WDL.png)
 
 ### Usage
 
